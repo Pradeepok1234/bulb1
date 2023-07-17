@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bulb</h1>
+    <button onclick="turnon()">ON</button>
+    <img id="a" src="Bulb_off.jpg"alt="Nothing">
+    <button onclick="turnoff()">OFF</button>
+    <script>
+        function turnon()
+        {
+            document.getElementById('a').src="Bulb_on.jpg";
+        }
+        function turnoff()
+        {
+            document.getElementById('a').src="Bulb_off.jpg";
+        }
+
+    </script>
+</body>
+</html>
